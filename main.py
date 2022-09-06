@@ -2,7 +2,7 @@ from flask import Flask, jsonify
 import os
 from lxml import etree
 from bs4 import BeautifulSoup
-
+import requests
 app = Flask(__name__)
 
 
